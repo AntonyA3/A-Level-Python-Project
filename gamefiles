@@ -1,0 +1,15 @@
+
+
+
+class Text_files:
+    def __init__(self,name,file):
+        self.name=name
+        self.file=file
+    def read(self):
+        file=open(self.file,"r")
+        return file.read()
+    def write(self,text):
+        file = open(self.file, "w")
+        file.write(text)
+
+print(int("v",32))
